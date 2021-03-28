@@ -34,5 +34,3 @@
 
 
 ![Indra's Github Stats](https://github-readme-stats.vercel.app/api?username=Indra7875&count_private=true&show_icons=true&include_all_commits=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Indra7875&hide=TeX&layout=compact)](https://github.com/Indra7875/Indra7875.github.io/blob/main/Myself.md)
-[![Indra's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Indra7875)](https://github.com/Indra7875/Indra7875.github.io/blob/main/Myself.md)
