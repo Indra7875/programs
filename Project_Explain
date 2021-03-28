@@ -1,0 +1,31 @@
+# Steps to created springboot project :-
+1) Create Database Secema.- primary key ,class & variables having same name 
+
+2) Creating Entity class. - JPA-implemented by hibernate,NOSql, @Entity-encapsulation,@Table (name = "table name in database"), @Id, @GenratedValue (stratergy = GenrationType.IDENTITY), @Column (name = "column name in database table"), 
+
+3) Update application .properties file. - spring.datasource.url, spring.datasource.username, soring.datasource.password, spring.jpa.show-sql=true, spring.mvc.view.suffix=.jsp, spring.mvc.view.prefix=/WEB-INF/jsps/server.servlet.context-path=/LocationMini
+http://localhost:8080/LocationMini/getLocations
+
+4) Creating Repository Layer- (Take the data from obj and push into DB table), entityClassNameRepository, add JpaRepository/CrudRepository, EntityClassName PrimaryKeyDatatype
+
+@Autowired - private RepoClassName ref_var - to create the obj at run time - SimpleJpaRepository class - upcasting - for performing CRUD op.
+ 
+5) Perform Junit Testing 
+
+6) Creating Jsp pages - src folder-webapp-WEB-INF-jsps
+
+7) Creating Controller layer - Entity_class_nameController - @Controller - @RequestMapping("/method_name") - jasper embedded tomcat
+
+* to fetch jsp page form data into controller -
+i) @ModelAttribute("obj_ref_var of entityClass_any") EntityClass_name obj_ref_var of entityClass 
+ii) @RequestParam("variable_name") DataType  variable_name
+iii) DTO 
+
+8) Creating the service layer -Entity_class_nameService-nonstatic method - implements - Entity_class_nameServiceImp (provide the implementation) - @Service 
+
+* ModelMap - ModelMap modelMap -RefVar_ModelMap.addAttribute("ref_var","msg") - (display) the message we use {"ref_var"} in jsp page
+
+* JSTL Tags (JSP Tag Library) 
+
+
+
